@@ -5,6 +5,8 @@ import { AddTermForm } from './components/AddTermForm';
 import { TermList } from './components/TermList';
 import { SearchTerms } from './components/SearchTerms';
 
+// just adding a commoent
+
 function App() {
   const [activeTab, setActiveTab] = useState<'add' | 'search'>('add');
   const [searchQuery, setSearchQuery] = useState('');
